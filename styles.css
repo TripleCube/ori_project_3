@@ -1,3 +1,13 @@
+* {
+  box-sizing: border-box;
+  font-family: "Oxygen", sans-serif;
+}
+
+body {
+  margin: 0% 0% 0% 0%;
+  padding: 0;
+}
+
 main {
   margin-top: 60px;
 }
@@ -342,10 +352,12 @@ footer {
   justify-content: flex-start;
 }
 
+/* ---------------------------------- Closable Item ---------------------------------- */
 ul,
 li {
   position: relative;
 }
+
 input {
   width: 70%;
   border: none;
@@ -357,6 +369,7 @@ input {
 }
 
 .addBtn {
+  /* height: 30px; */
   width: 30%;
   padding: 6px;
   background-color: rgb(38, 70, 83);
@@ -367,11 +380,13 @@ input {
   border-radius: 5px;
   font-size: 10px;
 }
+
 .search-tags-list {
   list-style: none;
   margin: 30px 0;
   padding: 0;
 }
+
 .search-tags-item {
   margin: 5px;
   padding: 10px;
@@ -379,17 +394,14 @@ input {
   color: snow;
   text-align: left;
 }
+
 .close {
   position: absolute;
   right: 0;
   top: 0;
   padding: 0 5px;
   color: tomato;
-  font-family: ‘Fredoka One’, cursive;
+  font-family: "Fredoka One", cursive;
   cursor: pointer;
   font-size: 20px;
-}
-
-body {
-  font-family: "Clash Display", sans-serif;
 }
